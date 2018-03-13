@@ -4,3 +4,16 @@ input:focus,
 textarea:focus {
     border-color: #52bab3;
 }
+
+/* disabled selectors */
+input:disabled {
+    background: #ddd;
+}
+
+/* 			<input type="checkbox" id="development" name="user_interest">
+            <label for="development">Development</label><br>
+*/
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
