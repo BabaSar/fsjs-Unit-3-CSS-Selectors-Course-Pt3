@@ -17,3 +17,18 @@ input:disabled {
 input[type="checkbox"]:checked + label {
     font-weight: bold;
 }
+
+
+/* You can use even, odd, or even an integer */
+ul li:nth-child(-n+3) {
+    background-color: #52bab3;
+}
+
+section div:nth-of-type(4) {
+    background: #52bab3;
+    color: white;
+}
+
+:root {
+    background: #e3ffb4;
+}
